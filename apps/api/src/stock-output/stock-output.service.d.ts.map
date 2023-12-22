@@ -1,0 +1,1 @@
+{"version":3,"file":"stock-output.service.d.ts","sourceRoot":"","sources":["stock-output.service.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,oBAAoB,EAAC,MAAM,+BAA+B,CAAC;AACpE,OAAO,EAAE,aAAa,EAAE,MAAM,2BAA2B,CAAC;AAG1D,qBACa,kBAAkB;IACjB,OAAO,CAAC,aAAa;gBAAb,aAAa,EAAE,aAAa;IAE1C,MAAM,CAAC,oBAAoB,EAAE,oBAAoB;IAqCvD,OAAO;IAID,OAAO,CAAC,EAAE,EAAE,MAAM;CAezB"}
