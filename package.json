@@ -23,6 +23,8 @@
     "packages/*"
   ],
   "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.1.1",
     "axios": "^1.6.2"
   }
 }
