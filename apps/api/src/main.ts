@@ -14,6 +14,6 @@ async function bootstrap() {
 
   app.useGlobalFilters(new NotFoundErrorFilter());
   app.enableCors()
-  await app.listen(3006);
+  await app.listen(process.env.SERVER_PORT);
 }
 bootstrap();

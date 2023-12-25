@@ -20,12 +20,16 @@ function App() {
   if (isLoading) return <h1>Loading...</h1>
   if (isError) return <pre>{JSON.stringify(error)}</pre>
 
-
+  if (!data) {
+    return null
+  }
+  
   return (
     <>
       <Header title='PRODUCTS manager' />
       <Container>
-        {data && <ProductsTable products={data} />}
+        {data?.length > 0 ? <ProductsTable products={data} /> : <h1>You do not have registered products
+        </h1>}
         <AddProductModal />
       </Container>
     </>

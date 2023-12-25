@@ -36,7 +36,7 @@ export default function AddProductModal() {
     return (
         <>
             <button
-                className='bg-gray-300 p-2 font-semibold rounded-md hover:bg-gray-400'
+                className='bg-gray-300 mt-10 p-2 font-semibold rounded-md hover:bg-gray-400'
                 onClick={() => setOpen(true)}>
                 Add Product
             </button>
